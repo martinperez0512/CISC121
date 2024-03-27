@@ -18,7 +18,7 @@ def add_yourself():
     your_name = input("Enter your name: ")
     your_age = str(input("Enter your age: "))
     your_favourite_colour = input("Enter your favourite colour ")
-    with open("myspace_profiles.txt", "a") as file:  # adds my name and info to the file
+    with open("a1_myspace_profiles.txt", "a") as file:  # adds my name and info to the file
         file.write("\n-\n" + your_name + "\n" + your_age + "\n" + your_favourite_colour + "\n")
 
 
@@ -32,7 +32,7 @@ def add_other_people():
     age = str(random.randint(18, 22))
     colors = ["green", "red", "yellow", "pink", "blue", "orange"]
     color = random.choice(colors)
-    with open("myspace_profiles.txt", "a") as file:  # adds the name and info the file
+    with open("a1_myspace_profiles.txt", "a") as file:  # adds the name and info the file
         file.write("\n-\n" + name + "\n" + age + "\n" + color + "\n")
 
 
@@ -42,7 +42,7 @@ def main():
     already entered my info and so the function doesn't need to be called again.
     """
     add_other_people()  # calls function
-    with open("myspace_profiles.txt", "r") as file:  # prints the file with the new info
+    with open("a1_myspace_profiles.txt", "r") as file:  # prints the file with the new info
         print(file.read())
 
 
