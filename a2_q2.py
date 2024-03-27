@@ -6,7 +6,7 @@ Email: 22mp4@queensu.ca
 Date: 2023-02-01
 I confirm that this assignment solution is my own work and conforms to Queen’s standards of Academic Integrity
 """
-from functions import friends_to_dictionary, friendship_degree  # import functions from the other file
+from a2_functions import friends_to_dictionary, friendship_degree  # import functions from the other file
 
 
 def main():
