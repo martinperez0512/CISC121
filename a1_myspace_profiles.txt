@@ -1,0 +1,37 @@
+-
+Anwar Hossain
+00
+blue
+-
+Erin Meger
+00
+pink
+-
+Chuck Noris
+60
+yellow
+-
+Martin Perez
+18
+red
+-
+Juan
+18
+blue
+-
+Kendrick
+20
+green
+-
+Elizabeth
+20
+blue
+-
+Joe
+22
+green
+
+-
+Robert
+18
+red
