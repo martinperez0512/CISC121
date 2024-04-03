@@ -6,7 +6,7 @@ Email: 22mp4@queensu.ca
 Date: 2023-03-16
 I confirm that this assignment solution is my own work and conforms to Queen’s standards of Academic Integrity
 """
-from functions import is_anagram
+from A4_functions import is_anagram
 
 s1 = input("Enter the first string (no spaces): ").upper()  # take string from user (ensured str was in uppercase)
 s2 = input("Enter the second string (no spaces): ").upper()  # take string from user (ensured str was in uppercase)
