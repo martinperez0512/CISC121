@@ -1,0 +1,111 @@
+* ALL TESTS ARE DONE ON a4_q1 AND a4_q2 FILES AND NOT THE functions.py FILE*
+
+a4_q1:
+	TEST #1:
+
+		Enter the first string (no spaces): RESISTANCE
+		Enter the second string (no spaces): ANCESTRIES
+		The strings are anagrams!
+
+		Process finished with exit code 0
+
+		NOTES: This test is with an anagram and the inputs are all in uppercase so the program works as expected.
+
+	TEST #2:
+
+		Enter the first string (no spaces): resistance
+		Enter the second string (no spaces): ancestries
+		The strings are anagrams!
+
+		Process finished with exit code 0
+
+		NOTES: This test is with the same anagram as above but the inputs are all in lowercase. Since the program automatically converts any
+			 lower case letters into upper case, the program still works as expected. 
+
+	TEST #3:
+
+		Enter the first string (no spaces): 12313
+		Enter the second string (no spaces): 12312.123
+		Traceback (most recent call last):
+		  File "C:\Users\mpere\Videos\121Assignment4\a4_q1.py", line 14, in <module>
+		    if is_anagram(s1, s2):  # if strings are anagrams
+		  File "C:\Users\mpere\Videos\121Assignment4\functions.py", line 49, in is_anagram
+		    if primeify(string1) == primeify(string2):  # if strings are anagrams
+		  File "C:\Users\mpere\Videos\121Assignment4\functions.py", line 38, in primeify
+		    prime_product = char_prime(first_char) * primeify(remaining_chars)  # recursively give product of other primes
+		  File "C:\Users\mpere\Videos\121Assignment4\functions.py", line 23, in char_prime
+		    prime_int = primes[my_char]
+		KeyError: '1'
+		
+		Process finished with exit code 1
+
+		NOTES: This test is run when the user enters an integer and a float. There is currently no instructions for what to do in this case,
+			 and so the program returns an error. Some alterations need to be made to the code. 
+
+	TEST #4:
+
+		Enter the first string (no spaces): 2453254
+		Enter the second string (no spaces): 1234.234
+		Error: please enter a string with no spaces
+
+		Process finished with exit code 0
+
+		NOTES: This test is with the updated code and it works successfully in telling the user the input is invalid. 
+
+	TEST #5:
+
+		Enter the first string (no spaces): some integer 24
+		Enter the second string (no spaces): some float 23.24
+		Error: please enter a string with no spaces
+
+		Process finished with exit code 0
+
+		NOTES: This test with the updated code was tested with a larger input that has spaces and both an integer and a float. It still worked
+			 successfully in not running the program and telling the user the input is invalid. 
+
+a4_q2:
+	TEST #1:
+
+		Enter the first string (no spaces): RESISTANCE
+		Enter the second string (no spaces): ANCESTRIES
+		The strings are anagrams!
+		Sorted list of primes: [23265878246710]
+
+		Process finished with exit code 0
+
+		NOTES: This test is when the user enters the strings in all caps and they are an anagram. This test was successfull
+
+	TEST #2:
+
+		Enter the first string (no spaces): admirer
+		Enter the second string (no spaces): married
+		The strings are anagrams!
+		Sorted list of primes: [540371062]
+
+		Process finished with exit code 0
+
+		NOTES: This test is when the user enters strings and they are all in lower case. Since the code autmomatically turns the strings into
+			 upper case, this test is also successfull. 
+
+	TEST #3:
+
+		Enter the first string (no spaces): python
+		Enter the second string (no spaces): java
+		The strings are not anagrams.
+		Sorted list of primes: [9164, 14016057389]
+
+		Process finished with exit code 0
+
+		NOTES: In this test the user enters 2 strings that are not anagrams, the program still ran fine and instead of displaying the sum of the
+			 primes for the anagram it displays both sums for both strings. 
+
+	TEST #4:
+
+		Enter the first string (no spaces): test with integers and spaces 31231
+		Enter the second string (no spaces): test with floats and spaces 1231.123
+		Error: please enter a string with no spaces
+
+		Process finished with exit code 0
+
+		NOTES: In this test the user enters spaces and integers/floats and the program tells the user the input is invalid so this test is successful
+			 in telling the user that their input is invalid. 
