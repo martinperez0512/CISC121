@@ -1,4 +1,4 @@
-* ALL TESTS ARE DONE ON a4_q1 AND a4_q2 FILES AND NOT THE functions.py FILE*
+* ALL TESTS ARE DONE ON a4_q1 AND a4_q2 FILES AND NOT THE A4_functions.py FILE*
 
 a4_q1:
 	TEST #1:
