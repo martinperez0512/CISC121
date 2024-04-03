@@ -1,0 +1,171 @@
+a3_q1:
+	TEST 1: # this test is on the display_info function
+
+		Welcome 
+		 Enter a corresponding choice number for the option you would like 
+		 1 = Display information for an electoral district 
+		 2 = Show unique districts by the given province 
+		 3 = Find the maximum of any value 
+		 4 = Find the minimum of any value 
+		 5 = Total votes each province/territory 
+		 6 = Sort a key into increasing order 
+		 7 = View percentage of voter turnout for specific district 
+		 Any other number = exit program
+		Enter your choice here: 1
+		Enter the district number you would like to see data for: 35065
+
+		Polling Stations: 224, Valid Ballots: 56464, Total Ballots Cast: 56721, Voter Turnout: 68.10%
+
+		Enter your choice here (refer to the number index above for your choice): 10
+		Thank you for visiting
+
+		Process finished with exit code 0
+		
+	TEST 2: # this test is on the unique_districts function
+
+		Welcome 
+		 Enter a corresponding choice number for the option you would like 
+		 1 = Display information for an electoral district 
+		 2 = Show unique districts by the given province 
+		 3 = Find the maximum of any value 
+		 4 = Find the minimum of any value 
+		 5 = Total votes each province/territory 
+		 6 = Sort a key into increasing order 
+		 7 = View percentage of voter turnout for specific district 
+		 Any other number = exit program
+		Enter your choice here: 2
+		Enter the province here: Prince Edward Island
+	
+		['Cardigan', 'Charlottetown', 'Egmont', 'Malpeque']
+
+		Enter your choice here (refer to the number index above for your choice): 11
+		Thank you for visiting
+
+		Process finished with exit code 0
+
+	TEST 3: # this test is on the find_maximum function
+
+		Welcome 
+		 Enter a corresponding choice number for the option you would like 
+		 1 = Display information for an electoral district 
+		 2 = Show unique districts by the given province 
+		 3 = Find the maximum of any value 
+		 4 = Find the minimum of any value 
+		 5 = Total votes each province/territory 
+		 6 = Sort a key into increasing order 
+		 7 = View percentage of voter turnout for specific district 
+		 Any other number = exit program
+		Enter your choice here: 3
+
+		Options are:
+		Population, Electors, Polling Stations, Valid Ballots, Rejected Ballots, and Total Ballots Cast
+		Enter which data you would like to see the minimum value: Total Ballots Cast
+
+		
+
+		Enter your choice here (refer to the number index above for your choice): 12
+		Thank you for visiting
+
+		Process finished with exit code 0
+
+	TEST 4: # this test is on the find_minimum function
+
+		Welcome 
+		 Enter a corresponding choice number for the option you would like 
+		 1 = Display information for an electoral district 
+		 2 = Show unique districts by the given province 
+		 3 = Find the maximum of any value 
+		 4 = Find the minimum of any value 
+		 5 = Total votes each province/territory 
+		 6 = Sort a key into increasing order 
+		 7 = View percentage of voter turnout for specific district 
+		 Any other number = exit program
+		Enter your choice here: 4
+
+		Options are:
+		Population, Electors, Polling Stations, Valid Ballots, Rejected Ballots, and Total Ballots Cast
+		Enter which data you would like to see the maximum value: Electors
+
+		20045 : 10004
+
+		Enter your choice here (refer to the number index above for your choice): 13
+		Thank you for visiting
+
+		Process finished with exit code 0
+
+	TEST 5: # this test is on the total_votes function
+
+		Welcome 
+		 Enter a corresponding choice number for the option you would like 
+		 1 = Display information for an electoral district 
+		 2 = Show unique districts by the given province 
+		 3 = Find the maximum of any value 
+		 4 = Find the minimum of any value 
+		 5 = Total votes each province/territory 
+		 6 = Sort a key into increasing order 
+		 7 = View percentage of voter turnout for specific district 
+		 Any other number = exit program
+		Enter your choice here: 5
+
+		Newfoundland and Labrador: 257389
+		Prince Edward Island: 87868
+		Nova Scotia: 526069
+		New Brunswick: 444459
+		Quebec: 4303758
+		Ontario: 6572378
+		Manitoba: 603240
+		Saskatchewan: 553792
+		Alberta: 1937228
+		British Columbia: 2374317
+		Yukon: 20385
+		Northwest Territories: 19077
+		Nunavut: 12023
+
+		Enter your choice here (refer to the number index above for your choice): 14
+		Thank you for visiting
+
+		Process finished with exit code 0
+
+	TEST 6: # this test is on the selection_sort function
+
+		Welcome 
+		 Enter a corresponding choice number for the option you would like 
+		 1 = Display information for an electoral district 
+		 2 = Show unique districts by the given province 
+		 3 = Find the maximum of any value 
+		 4 = Find the minimum of any value 
+		 5 = Total votes each province/territory 
+		 6 = Sort a key into increasing order 
+		 7 = View percentage of voter turnout for specific district 
+		 Any other number = exit program
+		Enter your choice here: 6
+		Enter which data you would like to sort: Rejected Ballots
+
+		Sorted by Rejected Ballots
+
+		Enter your choice here (refer to the number index above for your choice): 15
+		Thank you for visiting
+
+		Process finished with exit code 0
+
+	TEST 7: # this test is on the binary_search function
+
+		Welcome 
+		 Enter a corresponding choice number for the option you would like 
+		 1 = Display information for an electoral district 
+		 2 = Show unique districts by the given province 
+		 3 = Find the maximum of any value 
+		 4 = Find the minimum of any value 
+		 5 = Total votes each province/territory 
+		 6 = Sort a key into increasing order 
+		 7 = View percentage of voter turnout for specific district 
+		 Any other number = exit program
+		Enter your choice here: 7
+		Enter the Electoral District Number here: 24052
+
+		Found: 24052 = 65.1%
+
+		Enter your choice here (refer to the number index above for your choice): 16
+		Thank you for visiting
+
+		Process finished with exit code 0
