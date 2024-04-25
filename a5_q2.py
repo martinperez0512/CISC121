@@ -6,7 +6,7 @@ Email: 22mp4@queensu.ca
 Date: 2023-03-29
 I confirm that this assignment solution is my own work and conforms to Queen’s standards of Academic Integrity
 """
-from stack_classes import Stack
+from a5_stack_classes import Stack
 
 
 def main():
