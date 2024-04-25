@@ -4,7 +4,6 @@ Data structures - @ ln 11
 Searching/sorting algorithms - @ ln 147
 Searching/sorting algorithms full code - @ ln 262
 Recursion - @ ln 397
-Good luck!
 """
 
 
