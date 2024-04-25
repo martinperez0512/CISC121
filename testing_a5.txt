@@ -1,0 +1,105 @@
+*ALL TESTS ARE ON a5_q1 and a5_q2 files. NOTE I had more tests originally but I forgot to save the txt file and so the test results were not saved so most
+of the tests will be successfull since they were run later in the development process. * 
+
+a5_q1:
+	TEST 1:
+
+		Welcome
+		Press 1 to check in or 2 to exit: 1
+		Please enter the following information:
+		Your name: Mark
+		What kind of room you would like? (Standard, Suite or Taylor Suite): standard
+		Until what date do you plan on staying? (enter as YYYY-MM-DD) 2023-04-03
+		You have checked into room #104
+		Would you like any additional services? 
+		Snacks = $10 
+		Taxi = $20
+		Movie = $5 
+		Enter services you would like (put none if you don't want services): none
+		Would you like to see your total bill? (yes/no) yes
+		Your total bill is $0.
+		Press 1 to check in or 2 to exit 2
+
+		Process finished with exit code 0
+
+
+		NOTES: Test is successfull in allowing guest to check in.
+
+	TEST 2:
+
+		Welcome
+		Press 1 to check in or 2 to exit: 1
+		Please enter the following information:
+		Your name: Jake
+		What kind of room you would like? (Standard, Suite or Taylor Suite): suite
+		Until what date do you plan on staying? (enter as YYYY-MM-DD) 2023-04-02
+		You have checked into room #212
+		Would you like any additional services? 
+		Snacks = $10 
+		Taxi = $20
+		Movie = $5 
+		Enter services you would like (put none if you don't want services): snacks and movie
+		Would you like to see your total bill? (yes/no) yes
+		Your total bill is $10.
+		Press 1 to check in or 2 to exit 2
+
+		Process finished with exit code 0
+
+		NOTES: The test is again successfull in letting the user check into a suite but total bill price comes up incorrect and needs some fixing.
+
+	TEST 3:
+
+		Welcome
+		Press 1 to check in or 2 to exit: 1
+		Please enter the following information:
+		Your name: Dana
+		What kind of room you would like? (Standard, Suite or Taylor Suite): taylor suite
+		Until what date do you plan on staying? (enter as YYYY-MM-DD) 2023-04-05
+		You have checked into room #305
+		Would you like any additional services? 
+		Snacks = $10 
+		Taxi = $20
+		Movie = $5 
+		Enter services you would like (put none if you don't want services): taxi and snacks
+		Would you like to see your total bill? (yes/no) yes
+		Your total bill is $30.
+		Press 1 to check in or 2 to exit 1
+		Please enter the following information:
+		Your name: Lance
+		What kind of room you would like? (Standard, Suite or Taylor Suite): suite
+		Until what date do you plan on staying? (enter as YYYY-MM-DD) 2023-04-01
+		You have checked into room #216
+		Would you like any additional services? 
+		Snacks = $10 
+		Taxi = $20
+		Movie = $5 
+		Enter services you would like (put none if you don't want services): none
+		Would you like to see your total bill? (yes/no) yes
+		Your total bill is $0.
+		Press 1 to check in or 2 to exit 2
+
+		Process finished with exit code 0
+
+		NOTES: Issue where total cost showed only one price is fixed and test is again successfull in allowing two guests to check in. 
+
+a5_q2:
+	TEST 1:
+
+		Enter a list of values separated by spaces: t e s t 1
+		Original stack: ['t', 'e', 's', 't', '1']
+		Reversed stack: ['1', 't', 's', 'e', 't']
+
+		Process finished with exit code 0
+
+		NOTES: Test is sucessfull however I am going to try to incorporate a way to remove the quotes and brackets from the output so it is
+			 easier to read. 
+
+	TEST 2:
+
+		Enter a list of values separated by spaces: t e s t 2
+		Original stack: t e s t 2
+		Reversed stack: 2 t s e t
+		
+		Process finished with exit code 0
+
+		NOTES: Test is again successfull. 
